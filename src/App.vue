@@ -8,6 +8,7 @@
         below
       </p>
       <el-button>el-button</el-button>
+      <el-button type="primary">测试</el-button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
