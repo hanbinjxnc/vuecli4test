@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png">
     <div>
       <p>
         If Element is successfully added to this project, you'll see an
@@ -9,19 +9,22 @@
       </p>
       <el-button>el-button</el-button>
       <el-button type="primary">测试</el-button>
-    </div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    </div> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- 路由出口 -->
+    <!-- 路由匹配到的组件将渲染在这里 -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
+  // name: 'app',
+  // components: {
+  //   HelloWorld
+  // }
 }
 </script>
 
