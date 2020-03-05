@@ -22,6 +22,11 @@ const routes = [
     path: '/hello',
     name: 'Hello world',
     component: () => import('../components/HelloWorld.vue')
+  },
+  {
+    path: '/people',
+    name: 'people',
+    component: () => import('../components/elementui/people.vue')
   }
 ]
 
