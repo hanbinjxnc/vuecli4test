@@ -7,8 +7,8 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'index',
+    component: () => import('../components/elementui/index.vue')
   },
   {
     path: '/about',
@@ -27,7 +27,9 @@ const routes = [
     path: '/people',
     name: 'people',
     component: () => import('../components/elementui/people.vue')
-  }
+  },
+  {path: '/home',name: 'Home',component: Home},
+  {path: '/dialog',name: 'dialog',component: () => import('../components/elementui/dialog.vue')}
 ]
 
 const router = new VueRouter({
